@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const axios = Axios.create({
-  baseURL: 'http://localhost',
+  baseURL: 'https://arribi.informaticamajada.es',
   headers: {
     'X-Requested-With': 'XMLHttpRequest',
   },
