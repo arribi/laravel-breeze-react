@@ -13,7 +13,7 @@ const AsociationsList = () => {
 
   const fetchAsociations = async () => {
     try {
-      const response = await axios.get('http://localhost/api/asociations');
+      const response = await axios.get('https://arribiapi.informaticamajada.es/api/asociations');
       console.log("API Response:", response.data);
       setAsociations(response.data.data); //Ojo porque sin Orion no devuelve data
     } catch (err) {
